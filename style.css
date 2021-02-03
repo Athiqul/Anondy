@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #C6C7C2;
+    display:flex;
+    margin: 0px auto;
+    justify-content: center;
+
+}
+.r-left{
+    background-color:green;
+    width:400px;
+    
+}
+.r-left:hover{
+    background-color: indigo;
+
+}
+.profife-pic{
+
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+.profife-pic > img{
+    border:3px solid orangered;
+    margin-top: 10px;
+    border-radius:50%;
+    height:100px;
+}
+.profife-pic >.n{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.profife-pic >.d{
+    color: whitesmoke;
+    font-size: 16px;
+}
+.info{
+    margin-top:7px;
+    color: whitesmoke;
+}
+.info >.p-info{
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+.skills{
+    display:grid;
+    grid-template-columns:35% 65%;
+    align-items: center;
+    color:whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:10px ;
+    margin-top: 10px;
+}
+.skills >div hr{
+    border: 1px solid brown;
+    width: 100%;
+}
+.skills:hover{
+    color:tomato;
+    text-decoration: underline;
+}
+.s-list{
+    
+    color: white;
+    font-size: 14px;
+}
+.bord{
+    border:1px solid black;
+    background-color: black;
+    height: 6px;
+    border-radius:50px;
+    margin-left: 80px;
+
+}
+.wid{
+
+    height: 5px;
+    text-align: right;
+    font-size:10px;
+    padding: 0px;
+    background-color: tomato;
+    
+}
+.langu{
+    margin-top: 5px;
+    color: white;
+    font-size: 14px;
+    margin-left: 50px;
+}
+.langu >li{
+    list-style-type: none;
+}
+.langu li::before{
+    content: '\f058';
+    font-family: 'Font Awesome 5 Free';
+    color:powderblue;
+    border-radius: 10px;
+    
+}
+.p-in p::before{
+    content: '\f2bd';
+    font-family: 'Font Awesome 5 Free';
+    color:powderblue;
+    border-radius: 10px;
+}
+.r-right{
+    background-color: white;
+    width: 600px;
+
+}
+.skills-R{
+    display:grid;
+    grid-template-columns:20% 80%;
+    align-items: center;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:20px ;
+    margin-top: 20px;
+}
+.detail{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.r-right:hover{
+    color: whitesmoke;
+    background-color: skyblue;
+}
+.skills-R:hover{
+    text-decoration: underline;
+    color: violet;
+}
+@media screen and (max-width:600px)
+{
+    body{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    .r-right{
+        width:100%;
+    }
+}
